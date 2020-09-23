@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "161333143057",
+    "firebase_url": "https://saru-eccb2.firebaseio.com",
+    "project_id": "saru-eccb2",
+    "storage_bucket": "saru-eccb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161333143057:android:191d04109ab5dc27db33b0",
+        "android_client_info": {
+          "package_name": "com.example.saru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161333143057-vk4ld0lsg4o3fh2trqu2opit5m9jvks2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.saru",
+            "certificate_hash": "246ae4a49cf56af799f1e188b2fbff7f800ff124"
+          }
+        },
+        {
+          "client_id": "161333143057-c3siefgu1bs18d6v0kaldbmpr1qiond4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCErstfv9JrYXh8a5g2xXXEimeRU1BTwC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161333143057-c3siefgu1bs18d6v0kaldbmpr1qiond4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

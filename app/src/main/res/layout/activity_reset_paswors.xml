@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResetPasworsActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/rl21"
+        >
+        <TextView
+            android:id="@+id/page_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Reset Password"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"></TextView>
+    </RelativeLayout>
+<EditText
+    android:id="@+id/find_phone_number"
+    android:layout_width="match_parent"
+    android:layout_below="@+id/rl21"
+    android:inputType="phone"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:hint="Mobile Number"
+
+    android:textStyle="bold"
+    android:layout_marginTop="40dp"
+    android:textSize="22dp"
+    >
+
+</EditText>
+    <TextView
+        android:layout_below="@+id/find_phone_number"
+
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:id="@+id/title_questions"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/cirlcebutton"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:text=" Answer the following questions"
+        android:textSize="25dp"
+        >
+    </TextView>
+    <EditText
+        android:id="@+id/question1"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/title_questions"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:hint="What is your pet date of birth"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:textSize="22dp"
+        ></EditText>
+    <EditText
+        android:id="@+id/question2"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/question1"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:hint="What is your pet name"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:textSize="22dp"
+        >
+
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/verify_btn"
+        android:text="Verify"
+        android:layout_marginTop="50dp"
+      android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="22dp"
+        android:layout_below="@+id/question2"
+
+
+        >
+
+    </Button>
+</RelativeLayout>
